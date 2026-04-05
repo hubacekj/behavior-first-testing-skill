@@ -1,0 +1,5 @@
+interface:
+  display_name: "Behavior-First Testing"
+  short_description: "Behavior-first testing with Vitest, Browser Mode, Playwright, and TDD"
+  default_prompt: "Use behavior-first testing: choose the right test boundary, prefer browser tests over jsdom for browser behavior, write one failing behavior at a time, and avoid implementation-detail assertions."
+
