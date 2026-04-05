@@ -7,6 +7,8 @@ description: Behavior-first web testing with Vitest, Vitest Browser Mode, Playwr
 
 Use this skill when the user asks to write, fix, review, or redesign tests for web apps and the work touches UI behavior, Vitest, Playwright, Testing Library, MSW, flakiness, `jsdom`, or test boundaries.
 
+This skill is about authored automated tests and testing strategy. For agent-run browser exploration, manual verification, screenshots, and interactive reproduction, treat `agent-browser` as the authority and use it alongside this skill when needed.
+
 ## Core rules
 
 - Test behavior through public interfaces.
@@ -50,6 +52,7 @@ Use this skill when the user asks to write, fix, review, or redesign tests for w
 - Vitest Browser Mode: component rendering, form behavior, focus/keyboard/DOM interaction inside one page.
 - Playwright: navigation, auth, multi-step workflows, real browser integration seams, production-like smoke coverage.
 - MSW: when you need controllable network behavior without rewriting app code or patching `fetch` directly.
+- `agent-browser`: agent-driven browser execution, exploratory verification, screenshots, DOM inspection, and live repro work. Do not treat it as the source of truth for authored test files.
 - Keep Playwright coverage focused on the highest-value user journeys instead of pushing every edge case into E2E.
 
 See:
